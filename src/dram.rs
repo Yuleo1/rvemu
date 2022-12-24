@@ -4,7 +4,7 @@ use crate::bus::DRAM_BASE;
 use crate::cpu::{BYTE, DOUBLEWORD, HALFWORD, WORD};
 use crate::exception::Exception;
 
-/// Default memory size (1GiB).
+/// jumlah ram yang  akan digunakan
 pub const DRAM_SIZE: u64 = 1024 * 1024 * 1024;
 
 /// The memory used by the emulator.
